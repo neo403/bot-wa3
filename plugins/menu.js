@@ -47,7 +47,7 @@ const defaultMenu = {
 ╟📅*𝐓𝐚𝐧𝐠𝐠𝐚𝐥:* %date
 ╟🕔*𝐔𝐩𝐭𝐢𝐦𝐞:* %uptime (%muptime)
 ╟👨‍👨‍👧‍👧*𝐆𝐜𝐁𝐨𝐭:*
-╟https://chat.whatsapp.com/Dj8kMyI48u6KGbaAQtKi70
+╟http://chat.whatsapp.com/LojZCGWIuMsHvLx6Vf89BI
 ╚»★★ミ
 
 
@@ -163,7 +163,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ ArieTube | Ⓛ Bot', null, 'https://youtube.com/channel/UC0rPHvwr0sJtaccF8Mm1Xng/', 'Youtube', '', '', [
+    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ Premium | Ⓛ Limit', null, 'https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ/', 'Youtube', '', '', [
       ['Donasi', '/donasi'],
       ['Sewa Bot', '/sewa'],
       ['Owner', '/owner']
